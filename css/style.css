@@ -1,6 +1,6 @@
 /* Debug */
 header {
-    height: 100px;
+    height: 70px;
     width: 100%;
     background-color: plum;
 }
@@ -24,8 +24,9 @@ footer {
   }
 
 body {
-    padding: 3% 15%;
+    padding: 1% 15%;
     background-color: paleturquoise;
+    font-family: 'Nerko One', cursive;
 }
 
 main {
@@ -34,10 +35,11 @@ main {
 }
 
 header {
-    line-height: 100px;
+    text-transform: uppercase;
+    line-height: 70px;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .box {
@@ -57,6 +59,7 @@ header {
     background-size: 85%;
     background-position: top;
     background-color: white;
+    color: #e61986;
 }
 
 footer {
@@ -66,8 +69,8 @@ footer {
 }
 
 .box-text {
+    text-transform: uppercase;
     text-align: center;
     padding-top: 235px;
-    /* line-height: 30px; */
     font-size: 25px;
 }
