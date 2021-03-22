@@ -1,5 +1,5 @@
 /* Debug */
-header {
+/* header {
     height: 70px;
     width: 100%;
     background-color: plum;
@@ -8,7 +8,7 @@ header {
 footer {
     height: 30px;
     background-color: yellow;
-}
+} */
 /* /Debug */
 
 * {
@@ -53,15 +53,6 @@ header {
 
 }
 
-.second_row .box:nth-child(2) {
-    background-image: url(../img/noun_air_balloon_3134741.png);
-    background-repeat: no-repeat;
-    background-size: 85%;
-    background-position: top;
-    background-color: white;
-    color: #e61986;
-}
-
 footer {
     line-height: 30px;
     text-align: center;
@@ -74,3 +65,254 @@ footer {
     padding-top: 235px;
     font-size: 25px;
 }
+
+/* Mongolfiera */
+
+/* carta fissa */
+.second_row .box:nth-child(2) {
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: #e61986;
+    text-shadow: 1px 1px grey;
+}
+/* /carta fissa */
+
+.first_row .box:nth-child(2):hover {
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: #e61986;
+}
+.first_row .box:nth-child(2):hover::after{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: #e61986;
+    content: "air baloon ";
+    text-shadow: 1px 1px grey;
+}
+/* /Mongolfiera */
+
+
+/* bicicletta */
+.first_row .box:first-child:hover {
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: orange;
+}
+/* after */
+.first_row .box:first-child:hover::after{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: yellow;
+    content: "bicycle ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+.first_row .box:last-child:hover {
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: orange;
+}
+/* after */
+.first_row .box:last-child:hover::after{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: yellow;
+    content: "bicycle ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+/* /bicicletta */
+
+/* trattore */
+.third_row .box:first-child:hover {
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: orange;
+}
+/* after */
+.third_row .box:first-child:hover::after {
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: orange;
+    content: "tractor ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+
+.first_row .box:nth-child(3):hover {
+    background-image: url(../img/noun_Tractor_3134797.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: orange;
+}
+
+/* after */
+.first_row .box:nth-child(3):hover::after{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: orange;
+    content: "tractor ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+/* /trattore */
+
+/* tram */
+.second_row .box:first-child:hover {
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: red
+}
+/* after */
+.second_row .box:first-child:hover::after {
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: red;
+    content: "tram ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+
+.third_row .box:last-child:hover {
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: red
+}
+
+/* after */
+.third_row .box:last-child:hover::after{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: red;
+    content: "tram ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+/* /tram */
+
+/* sottomarino */
+.second_row .box:nth-child(3):hover {
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: blue
+}
+/* after */
+.second_row .box:nth-child(3):hover::after{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: blue;
+    content: "submarine ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+.second_row .box:last-child:hover {
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+    color: blue
+}
+/* after */
+.second_row .box:last-child:hover::after{
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: blue;
+    content: "submarine ";
+    text-shadow: 1px 1px grey;
+}
+/* /after */
+/* /sottomarino */
+
+/* nave */
+.third_row .box:nth-child(2):hover {
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+}
+/* after */
+.third_row .box:nth-child(2):hover::after {
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 235px;
+    font-size: 30px;
+    color: greenyellow;
+    content: "Cruise ";
+    text-shadow: 1px 1px grey;
+  }
+  /* after */
+.third_row .box:nth-child(3):hover {
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
+}
+.third_row .box:nth-child(3):hover::after {
+    position: absolute;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*text-align: center;  non prende il text-align */
+    padding-top: 235px;
+    font-size: 30px;
+    color: greenyellow;
+    content: "Cruise ";
+    text-shadow: 1px 1px grey;
+  }
+/* /nave */
