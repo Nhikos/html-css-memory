@@ -1,0 +1,55 @@
+/* Debug */
+header {
+    height: 100px;
+    width: 100%;
+    background-color: plum;
+}
+
+footer {
+    height: 30px;
+    background-color: yellow;
+}
+/* /Debug */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    padding: 3% 15%;
+    background-color: paleturquoise;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.box {
+    float: left;
+    height: 250px;
+    width: 200px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+footer {
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
