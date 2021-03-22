@@ -30,6 +30,7 @@ body {
 
 main {
     position: relative;
+    margin: 0 auto;
 }
 
 header {
@@ -41,15 +42,32 @@ header {
 
 .box {
     float: left;
-    height: 250px;
-    width: 200px;
-    background-color: tomato;
+    height: 300px;
+    width: 20%;
     border-radius: 10px;
-    margin: 1%;
+    margin: 2.5%;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+
+}
+
+.second_row .box:nth-child(2) {
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: top;
+    background-color: white;
 }
 
 footer {
     line-height: 30px;
     text-align: center;
     font-size: 12px;
+}
+
+.box-text {
+    text-align: center;
+    padding-top: 235px;
+    /* line-height: 30px; */
+    font-size: 25px;
 }
